@@ -10,6 +10,11 @@ body {
     background-color: var(--primary-color);
 }
 
+main h1 {
+    font-size:  var(--text-large);
+    font-weight: bold;
+}
+
 main {
     padding: 16px 8px;
     background-color: white;

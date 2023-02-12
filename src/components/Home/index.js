@@ -1,6 +1,7 @@
-import "./ProfileSection.css"
+import "./Home.css"
 
-export default function ProfileSection() {
+
+export default function Home() {
     return (
         <main className="container-fluid">
             <h1>Who I am</h1>
@@ -11,4 +12,4 @@ export default function ProfileSection() {
             </div>
         </main>
     );
-}
+  }

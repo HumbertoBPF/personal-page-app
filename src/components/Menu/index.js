@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Menu.css'
 
 export default function Menu() {
@@ -10,17 +11,17 @@ export default function Menu() {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page">Home</a>
+                            <Link className="nav-link" aria-current="page" to="/home">Home</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 About me
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item">Educational Background</a></li>
-                                <li><a className="dropdown-item">Work Experience</a></li>
-                                <li><a className="dropdown-item">Prizes and Awards</a></li>
-                                <li><a className="dropdown-item">Professional Competences</a></li>
+                                <li><Link className="dropdown-item" to="/educational-background">Educational Background</Link></li>
+                                <li><Link className="dropdown-item" to="/work-experience">Work Experience</Link></li>
+                                <li><Link className="dropdown-item" to="/prizes-and-awards">Prizes and Awards</Link></li>
+                                <li><Link className="dropdown-item" to="/professional-competences">Professional Competences</Link></li>
                             </ul>
                         </li>
                     </ul>

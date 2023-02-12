@@ -3,7 +3,7 @@ footer {
     color: white;
 }
 
-h1 {
+footer h1 {
     margin: 0 0 16px 0;
     font-size:  var(--text-large);
     font-weight: bold;
