@@ -1,0 +1,13 @@
+header {  
+    color: white;
+    font-weight: bold;
+    font-size: var(--text-large);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--hover-color);
+}
