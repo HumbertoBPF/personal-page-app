@@ -14,7 +14,8 @@ export default function WorkExperience() {
                         alt={item.alt}
                         detail1={item.detail1}
                         detail2={item.detail2}
-                        items={item.items}/>
+                        items={item.items}
+                        key={item.id}/>
                 })
             }
         </>

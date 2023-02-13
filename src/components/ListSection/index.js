@@ -8,7 +8,7 @@ export default function ListSection({title, items}) {
                 {
                     items.map(item => {
                         return (
-                            <li>{item}</li>
+                            <li key={item.id}>{item.text}</li>
                         )
                     })
                 }

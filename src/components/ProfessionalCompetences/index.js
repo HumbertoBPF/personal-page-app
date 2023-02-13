@@ -10,7 +10,8 @@ export default function ProfessionalCompetences() {
                     return (
                         <ListSection 
                             title={item.title} 
-                            items={item.items}/>
+                            items={item.items}
+                            key={item.id}/>
                     );
                 })
             }

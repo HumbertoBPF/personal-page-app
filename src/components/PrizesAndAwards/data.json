@@ -1,48 +1,116 @@
 [
     {
+        "id": 1,
         "title": "2022:",
         "items": [
-            "3rd place in the Coder Rerun 2.0, a competition organized by the IEEE Student Branch of the University of Londrina. In the competition, 14 teams (each one composed of 2 or 3 students) should try to solve DSA (Data Structures and Algorithms) problems during 4 hours",
-            "3rd place in the LESChallenge Hackathon, a Two days long entrepreneurship competition. My team developed a solution to diffuse the importance of São Carlos' universities among its citizens. Teams with between 3 and 5 members with skills in development, UX/UI, business, and marketing. At the end of the competition, the teams had to present their solutions with a pitch and an MVP"
+            {
+                "id": 1,
+                "text": "3rd place in the Coder Rerun 2.0, a competition organized by the IEEE Student Branch of the University of Londrina. In the competition, 14 teams (each one composed of 2 or 3 students) should try to solve DSA (Data Structures and Algorithms) problems during 4 hours"
+            },
+            {
+                "id": 2,
+                "text": "3rd place in the LESChallenge Hackathon, a Two days long entrepreneurship competition. My team developed a solution to diffuse the importance of São Carlos' universities among its citizens. Teams with between 3 and 5 members with skills in development, UX/UI, business, and marketing. At the end of the competition, the teams had to present their solutions with a pitch and an MVP"
+            }
         ]
     },
     {
+        "id": 2,
         "title": "2016:",
         "items": [
-            "Participation in the selection process of the International Physics Olympiad (IPhO)",
-            "Participation in the selection process of the International Olympiad in Astronomy and Astronautics (IOAA)",
-            "Participation in the Contemporary School in Physics, an event of the University of São Paulo for students who have interest in physics. High school students from all the Brazil could apply to participate. Among all the students, 30 were selected to spend 1 week at the São Carlos Physics Institute (IFSC), knowing the laboratories and having lectures about research subjects of the institute. During the three final days, the students participate in a competition where they are divided in 10 teams and each one must reproduce one famous physics experiment and present the results in a seminar in the final day. My group reproduced the electrons diffraction experiment and got the third place.",
-            "Gold medal in the Kanguroo  Mathematics Olympiad",
-            "Silver medal in the Brazilian Robotics Olympiad",
-            "Silver medal in the Brazilian Physics Olympiad (regional phase)",
-            "Bronze medal in the Brazilian Olympiad in Astronomy and Astronautics",
-            "Bronze medal in the Brazilian Chemistry Olympiad (national phase)",
-            "Bronze medal in the North-Northeast Chemistry Olympiad",
-            "Honorable mention in the National Olympiad in Sciences"
+            {
+                "id": 1,
+                "text": "Participation in the selection process of the International Physics Olympiad (IPhO)"
+            },
+            {
+                "id": 2,
+                "text": "Participation in the selection process of the International Olympiad in Astronomy and Astronautics (IOAA)"
+            },
+            {
+                "id": 3, 
+                "text": "Participation in the Contemporary School in Physics, an event of the University of São Paulo for students who have interest in physics. High school students from all the Brazil could apply to participate. Among all the students, 30 were selected to spend 1 week at the São Carlos Physics Institute (IFSC), knowing the laboratories and having lectures about research subjects of the institute. During the three final days, the students participate in a competition where they are divided in 10 teams and each one must reproduce one famous physics experiment and present the results in a seminar in the final day. My group reproduced the electrons diffraction experiment and got the third place."
+            },
+            {
+                "id": 4,
+                "text": "Gold medal in the Kanguroo  Mathematics Olympiad"
+            },
+            {
+                "id": 5,
+                "text": "Silver medal in the Brazilian Robotics Olympiad"
+            },
+            {
+                "id": 6,
+                "text": "Silver medal in the Brazilian Physics Olympiad (regional phase)"
+            },
+            {
+                "id": 7,
+                "text": "Bronze medal in the Brazilian Olympiad in Astronomy and Astronautics"
+            },
+            {
+                "id": 8,
+                "text": "Bronze medal in the Brazilian Chemistry Olympiad (national phase)"
+            },
+            {
+                "id": 9,
+                "text": "Bronze medal in the North-Northeast Chemistry Olympiad" 
+            },
+            {
+                "id": 10,
+                "text": "Honorable mention in the National Olympiad in Sciences"
+            }
         ]
     },
     {
+        "id": 3,
         "title": "2015:",
         "items": [
-            "Gold medal in the Brazilian Olympiad in Astronomy and Astronautics",
-            "Gold medal in the Kanguroo Mathematics Olympiad",
-            "Silver medal in the Brazilian Physics Olympiad (national phase)",
-            "Silver medal in the Brazilian Chemistry Olympiad (regional phase)",
-            "Bronze medal in the Brazilian Physics Olympiad (regional phase)"
+            {
+                "id": 1,
+                "text": "Gold medal in the Brazilian Olympiad in Astronomy and Astronautics"
+            },
+            {
+                "id": 2,
+                "text": "Gold medal in the Kanguroo Mathematics Olympiad"
+            },
+            {
+                "id": 3,
+                "text": "Silver medal in the Brazilian Physics Olympiad (national phase)" 
+            },
+            {
+                "id": 4,
+                "text": "Silver medal in the Brazilian Chemistry Olympiad (regional phase)"
+            },
+            {
+                "id": 5,
+                "text": "Bronze medal in the Brazilian Physics Olympiad (regional phase)"
+            }
         ]
     },
     {
+        "id": 4,
         "title": "2014:",
         "items": [
-            "Silver medal in the Brazilian Robotics Olympiad",
-            "Bronze medal in the Brazilian Physics Olympiad (national phase)",
-            "Bronze medal in the Kanguroo Mathematics Olympiad"
+            {
+                "id": 1,
+                "text": "Silver medal in the Brazilian Robotics Olympiad"
+            },
+            {
+                "id": 2,
+                "text": "Bronze medal in the Brazilian Physics Olympiad (national phase)"
+            },
+            {
+                "id": 3,
+                "text": "Bronze medal in the Kanguroo Mathematics Olympiad" 
+            }
         ]
     },
     {
+        "id": 5,
         "title": "2013:",
         "items": [
-            "Honorable mention in the Brazilian Chemistry Olympiad Junior"
+            {
+                "id": 1,
+                "text": "Honorable mention in the Brazilian Chemistry Olympiad Junior"
+            }
         ]
     }
 ]

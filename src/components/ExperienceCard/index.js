@@ -13,7 +13,7 @@ export default function ExperienceCard({title, image, alt, detail1, detail2, ite
                 <ul>
                     {
                         items.map(item => {
-                            return (<li>{item}</li>)
+                            return (<li key={item.id}>{item.text}</li>)
                         })
                     }
                 </ul>

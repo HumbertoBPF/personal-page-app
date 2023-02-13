@@ -7,13 +7,14 @@ export default function EducationalBackground() {
             <h1>Educational Background</h1>
             {
                 educationalBackground.map(item => {
-                    return <ExperienceCard 
+                    return <ExperienceCard
                         title={item.title} 
                         image={item.image}
                         alt={item.alt}
                         detail1={item.detail1}
                         detail2={item.detail2}
-                        items={item.items}/>
+                        items={item.items}
+                        key={item.id}/>
                 })
             }
         </>

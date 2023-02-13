@@ -6,8 +6,10 @@ export default function PrizesAndAwards() {
         <>
             <h1>Prizes and Awards</h1>
             {prizesAndAwards.map(item  => {
-                return <ListSection title={item.title}
-                                    items={item.items}/>
+                return <ListSection 
+                            title={item.title}
+                            items={item.items}
+                            key={item.id}/>
             })}
         </>
     )
