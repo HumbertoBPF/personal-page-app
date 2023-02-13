@@ -6,7 +6,9 @@ export default function Base() {
     return (
         <>
             <Menu/>
-            <Outlet/>
+            <main className="container-fluid">
+                <Outlet/>
+            </main>
             <Footer/>
         </>
     );

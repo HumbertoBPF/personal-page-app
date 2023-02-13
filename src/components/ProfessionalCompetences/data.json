@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Programming:",
+        "items": [
+            "Programming languages: Python and Java",
+            "Front-end development: HTML, CSS, and Bootstrap",
+            "Back-end development: Django and Django REST Framework",
+            "Mobile development: Android Framework and its features (Room database, Retrofit, Material Design, Constraint Layout...)",
+            "Test Driven Development: Selenium (Python), Pytest (Python), Unittest (Python) ,Espresso (Java), JUnit (Java)",
+            "Databases: relational (MySQL, PostgreSQL and SQLite) and non-relational databases (MongoDB)",
+            "Other: Version Control (Git), Linux"
+        ]
+    },
+    {
+        "title": "Languages:",
+        "items": [
+            "Portuguese: native proficiency level",
+            "English: advanced proficiency level",
+            "Spanish: advanced proficiency level",
+            "French: advanced proficiency level"
+        ]
+    }
+]

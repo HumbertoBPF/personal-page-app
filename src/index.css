@@ -13,6 +13,7 @@ body {
 main h1 {
     font-size:  var(--text-large);
     font-weight: bold;
+    margin: 0;
 }
 
 main {

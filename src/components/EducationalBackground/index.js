@@ -3,7 +3,7 @@ import educationalBackground from "components/EducationalBackground/data.json"
 
 export default function EducationalBackground() {
     return (
-        <main className="container-fluid">
+        <>
             <h1>Educational Background</h1>
             {
                 educationalBackground.map(item => {
@@ -16,6 +16,6 @@ export default function EducationalBackground() {
                         items={item.items}/>
                 })
             }
-        </main>
+        </>
     );
 }
