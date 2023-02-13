@@ -1,0 +1,62 @@
+[
+    {
+        "title": "January 2023 - Now", 
+        "image": "/images/brain4care_logo.png", 
+        "alt": "Brain4care logo", 
+        "detail1": "Junior Software Developer at Brain4care", 
+        "detail2": "São Carlos, São Paulo, Brazil", 
+        "items": [
+            "Use of the Django Framework to develop APIs, scripts and services",
+            "Automated tests with the Pytest library",
+            "PostgreSQL databases"
+        ]
+    },
+    {
+        "title": "May 2022 - December 2022", 
+        "image": "/images/brain4care_logo.png", 
+        "alt": "Brain4care logo", 
+        "detail1": "Internship at Brain4care", 
+        "detail2": "São Carlos, São Paulo, Brazil", 
+        "items": [
+            "Use of the Django Framework to develop APIs, scripts and services",
+            "Automated tests with the Pytest library",
+            "Data scraping with Beautiful Soup and Selenium",
+            "AWS Infrastructure (Lambda, CloudFormation, SQS, Cloudwatch, S3, EC2, RDS, DynamoDB, Secrets Manager...)",
+            "PostgreSQL databases"
+        ]
+    },
+    {
+        "title": "July 2021 - December 2021", 
+        "image": "/images/dynseo_logo.png", 
+        "alt": "Dynseo logo", 
+        "detail1": "Internship at Dynseo", 
+        "detail2": "Paris, Île-de-France, France", 
+        "items": [
+            "Use of the Android Framework (Java) to develop mobile applications for memory and cognitive training of elderly people, children and people who experienced trauma. The work required the use of web services and handling SQLite databases"
+        ]
+    },
+    {
+        "title": "June 2020 - July 2020", 
+        "image": "/images/centrale_supelec_logo.png", 
+        "alt": "CentraleSupélec logo", 
+        "detail1": "Internship at CentraleSupélec", 
+        "detail2": "Gif-sur-Yvette, Île-de-France, France", 
+        "items": [
+            "Math tutor of CentraleSupélec Summer Math School, a preparatory course for incoming international students of CentraleSupélec",
+            "This course aims to provide to the students the basic mathematical background required by CentraleSupélec graduation subjects",
+            "Classes mainly in French (sometimes English was necessary to make some points clear)",
+            "Course content: reasoning and logic, set theory, functions, sequences and series of functions, linear algebra, topology"
+        ]
+    },
+    {
+        "title": "February 2018 - June 2018", 
+        "image": "/images/usp_logo.png", 
+        "alt": "University of São Paulo logo", 
+        "detail1": "University of São Paulo", 
+        "detail2": "São Carlos, São Paulo, Brazil", 
+        "items": [
+            "Tutor of the Solid Mechanics course for the students of computing engineering",
+            "Weekly sessions open to students questions and doubts"
+        ]
+    }
+]

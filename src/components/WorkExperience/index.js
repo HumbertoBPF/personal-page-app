@@ -1,12 +1,13 @@
 import ExperienceCard from "components/ExperienceCard";
-import educationalBackground from "components/EducationalBackground/data.json"
+import workExperience from "components/WorkExperience/data.json";
 
-export default function EducationalBackground() {
+
+export default function WorkExperience() {
     return (
         <main className="container-fluid">
-            <h1>Educational Background</h1>
+            <h1>Work Experience</h1>
             {
-                educationalBackground.map(item => {
+                workExperience.map(item => {
                     return <ExperienceCard 
                         title={item.title} 
                         image={item.image}
