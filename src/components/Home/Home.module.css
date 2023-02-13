@@ -1,11 +1,11 @@
-.profile-card {
+.profilecard {
     width: 100%;
     display: inline-block;
     font-size: var(--text-regular);
     margin: 16px 0px 0px 0px;
 }
 
-.profile-card img {
+.profilecard img {
     width: 100%;
     box-sizing: border-box;
     float: left;
@@ -13,14 +13,14 @@
 }
 
 @media screen and (min-width: 576px) {
-    .profile-card img  {
+    .profilecard img  {
         width: 50%;
         padding: 0 16px 0 0;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .profile-card img {
+    .profilecard img {
         width: 25%;
     }
 }

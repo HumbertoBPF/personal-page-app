@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Menu.css'
+import styles from './Menu.module.css'
 
 export default function Menu() {
     return (
@@ -11,10 +11,10 @@ export default function Menu() {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link" aria-current="page" to="/home">Home</Link>
+                            <Link className={`nav-link ${styles.navlink}`} aria-current="page" to="/home">Home</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className={`nav-link dropdown-toggle ${styles.navlink}`} role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 About me
                             </Link>
                             <ul className="dropdown-menu">

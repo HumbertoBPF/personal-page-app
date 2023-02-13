@@ -1,8 +1,8 @@
-import "./ExperienceCard.css"
+import styles from "./ExperienceCard.module.css"
 
 export default function ExperienceCard({title, image, alt, detail1, detail2, items}) {
     return (
-        <div className="experience-card">
+        <div className={styles.experiencecard}>
             <img src={image} alt={alt}/>
             <div>
                 <p>{title}</p>

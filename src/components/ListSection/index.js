@@ -1,8 +1,8 @@
-import "./ListSection.css"
+import styles from "./ListSection.module.css"
 
 export default function ListSection({title, items}) {
     return (
-        <div className="list-section">
+        <div className={styles.listsection}>
             <h2>{title}</h2> 
             <ul>
                 {

@@ -1,4 +1,4 @@
-.experience-card {
+.experiencecard {
     width: 100%;
     display: inline-block;
     margin: 16px 0px 0px 0px;
@@ -8,7 +8,7 @@
     font-size: var(--text-regular);
 }
 
-.experience-card img {
+.experiencecard img {
     width: 50%;
     box-sizing: border-box;
     border-radius: 4px;
@@ -16,38 +16,38 @@
     margin: auto;
 }
 
-.experience-card ul {
+.experiencecard ul {
     padding: 0;
     margin: 0;
     list-style-position: inside;
 }
 
-.experience-card p  {
+.experiencecard p  {
     margin: 0;
 }
 
 @media screen and (min-width: 576px) {
-    .experience-card img  {
+    .experiencecard img  {
         width: 50%;
         padding: 0 16px 0 0;
     }
 
-    .experience-card img  {
+    .experiencecard img  {
         float: left;
     }
 
-    .experience-card div  {
+    .experiencecard div  {
         width: 50%;
         display: inline-block;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .experience-card img {
+    .experiencecard img {
         width: 16.66%;
     }
 
-    .experience-card div  {
+    .experiencecard div  {
         width: 83.33%;
     }
 }
